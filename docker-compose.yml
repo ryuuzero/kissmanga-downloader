@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/Light-and-Shadow/Ch-001v002?id=519883
   selenium:
     image: "elgalu/selenium:latest"
     ports:
